@@ -15,21 +15,29 @@
                 src="https://zoomreceitas.com/wp-content/uploads/2023/08/culinaria-internacional-scaled.jpeg.webp"
                 alt="Logo do site" />
         </div>
+			<nav>
+				<ul class="nav-menu">
+					<li><a href="#home">Início</a></li>
+					<li><a href="#restaurants">Restaurantes</a></li>
+					<li><a href="#about">Sobre Nós</a></li>
+					<li><a href="#contact">Contato</a></li>
+				</ul>
+			</nav>
 			<div class="search-bar">
 				<input type="text" placeholder="Buscar restaurantes ou pratos" aria-label="Buscar restaurantes ou pratos">
-        </div>
+		</div>
 				<div class="user-options">
 					<button class="login-btn">Entrar</button>
 				</div>
 	</header>
 
-	<section class="hero">
+	<section id="home" class="hero">
 		<h1>O melhor da sua cidade!</h1>
 		<input type="text" placeholder="Digite seu endereço" aria-label="Digite seu endereço">
 		<button class="btn-primary">Buscar</button>
 	</section>
 
-	<section class="restaurants">
+	<section id="restaurants" class="restaurants">
 		<h1>Culinária Sem Fronteiras</h1>
 		<div class="restaurant-list">
 			<div class="restaurant-item">
@@ -54,7 +62,6 @@
 				<p>$70</p>
 			</div>
 		</div>
-		<!-- Mantendo divs duplicadas com alinhamento corrigido -->
 		<div class="restaurant-list">
 			<div class="restaurant-item">
 				<img
@@ -80,9 +87,25 @@
 		</div>
 	</section>
 
+	<section id="about" class="about">
+		<h1>Sobre Nós</h1>
+		<p>Exploramos o mundo da gastronomia para trazer a você os melhores sabores da cidade. Nossa missão é oferecer
+			uma experiência culinária de qualidade e prazerosa.</p>
+	</section>
+
+	<section id="contact" class="contact">
+		<h1>Contato</h1>
+		<p>Tem alguma dúvida ou sugestão? Entre em contato conosco através dos meios abaixo:</p>
+		<ul>
+			<li><strong>Email:</strong> contato@seusite.com</li>
+			<li><strong>Telefone:</strong> (63) 1234-5678</li>
+			<li><strong>Endereço:</strong> Rua Carioca, 14 - Palmas, TO</li>
+		</ul>
+	</section>
+
 	<section class="social-media">
 		<a href="https://www.instagram.com/culinaria.sem.fronteiras_?igsh=ZXoyMDAydGNscHll" target="_blank"
-			rel="noopener noreferrer" class="instagram-link">Link para Instagram</a>
+			rel="noopener noreferrer" class="instagram-link">Siga-nos no Instagram</a>
 	</section>
 
 	<footer>
