@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfólio</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>Portfólio</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">Sobre Mim</a></li>
+					<li><a href="#projects">Projetos</a></li>
+					<li><a href="#contact">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="about">
+		<div class="container">
+			<div class="about-content">
+				<!-- Link atualizado para a imagem do Imgur -->
+				<img src="https://i.imgur.com/agqai2R.jpeg" alt="Sua Foto" class="profile-pic">
+				<div class="text">
+					<h2>Sobre Mim</h2>
+					<p>Olá! Sou Gabriel, um estagiário apaixonado por criação de sites. Estou sempre buscando
+						aprender mais e aprimorar minhas habilidades em desenvolvimento web.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="projects">
+		<div class="container">
+			<h2>Projetos</h2>
+			<div class="project">
+				<img src="https://www.receitas-sem-fronteiras.com/images/local/logo_receitas-sem-fronteiras_facebook.jpg" alt="Projeto 1">
+				<div class="project-info">
+					<h3>Projeto 1: Criação site Culinária sem Fronteiras</h3>
+					<p>Desenvolvi um site simples com funcionalidades básicas, como comprar, menu, contatos e posts.</p>
+					<a href="https://github.com/Gabrielcript" target="_blank" class="btn">Ver Projeto</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2>Contato</h2>
+			<p>Você pode entrar em contato comigo através do e-mail abaixo ou preencher o formulário para enviar uma
+				mensagem diretamente.</p>
+			<form action="mailto:contato@seusite.com" method="post" enctype="text/plain">
+				<div class="form-group">
+					<label for="name">Nome:</label>
+					<input type="text" id="name" name="name" required>
+                </div>
+					<div class="form-group">
+						<label for="email">E-mail:</label>
+						<input type="email" id="email" name="email" required>
+                </div>
+						<div class="form-group">
+							<label for="message">Mensagem:</label>
+							<textarea id="message" name="message" rows="4" required></textarea>
+						</div>
+						<button type="submit" class="btn">Enviar</button>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 Portfólio. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+</body>
+
+</html>
